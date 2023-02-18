@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'server',
+  target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -65,10 +65,12 @@ export default {
   },
   publicRuntimeConfig: {
     formId: process.env.FORM_ID
+
   },
   privateRuntimeConfig: {
     apiKey: process.env.CONVERT_KIT_API_KEY
 
-  }
+  },
+  ssr: true
 
 }
