@@ -53,7 +53,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    standalone: false,
+    extend (config) {
+      config.resolve.alias['node-fetch-native'] = require.resolve('node-fetch')
+    },
     postcss: {
       plugins: {
         tailwindcss: {},
