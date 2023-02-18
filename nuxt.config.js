@@ -40,8 +40,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    '@nuxtjs/axios',
-    '@nuxt/image'
+    '@nuxtjs/axios'
 
   ],
 

@@ -8,11 +8,12 @@
           </h2>
         </div>
         <div>
-          <nuxt-img
+          <img
             src="/octopus.png"
             width="80"
             height="80"
-          />
+            alt="Imagem de um polvo"
+          >
         </div>
       </div>
       <div class="m-8">
